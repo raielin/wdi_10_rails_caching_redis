@@ -39,3 +39,12 @@
 <br>
 
 <%= link_to 'New Review', new_product_review_path(@product) %>
+
+<h2>Tweets</h2>
+
+<dl>
+  <% @product.tweets.each do |tweet| %>
+    <dt><%= tweet.user.screen_name %></dt>
+    <dd><%= tweet.text %></dd>
+  <% end %>
+</dl>
