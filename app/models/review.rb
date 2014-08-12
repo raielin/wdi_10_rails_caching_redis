@@ -1,5 +1,5 @@
 class Review < ActiveRecord::Base
-  belongs_to :product
+  belongs_to :product, touch: true
   validates! :product, presence: true
   validates :content, presence: true
   validates :rating, numericality: {
