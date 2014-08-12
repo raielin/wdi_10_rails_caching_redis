@@ -15,4 +15,5 @@ gem 'spring', group: :development
 # Additional gems for this project
 
 gem 'twitter'
+gem 'redis-rails'
 gem 'dotenv-rails', group: :development
