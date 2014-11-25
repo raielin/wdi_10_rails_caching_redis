@@ -16,3 +16,4 @@ gem 'spring', group: :development
 
 gem 'twitter'
 gem 'dotenv-rails', group: :development
+gem 'pry-rails'
